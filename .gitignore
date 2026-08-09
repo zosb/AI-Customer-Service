@@ -1,0 +1,45 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+coverage/
+
+# Runtime data
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+backend/storage/chroma/*
+!backend/storage/chroma/.gitkeep
+
+# Node / Vue
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# Temporary / backup
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+*~
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
